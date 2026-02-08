@@ -89,6 +89,12 @@ A full-stack e-commerce application built with React (frontend) and Node.js/Expr
    ```
    The app will run on `http://localhost:5173` (default Vite port).
 
+## Live Demo
+
+- **Frontend**: https://ecommerce-shopping-cart-app-1.onrender.com
+- **Backend API**: https://ecommerce-shopping-cart-app-1.onrender.com/api
+
+
 ## Usage
 
 1. Open the frontend in your browser.
