@@ -1,10 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-const API_BASE =
-  import.meta.env.MODE === "development"
-    ? "http://localhost:3000/api"
-    : "https://ecommerce-shopping-cart-app.onrender.com/api";
+const API_BASE ="https://ecommerce-shopping-cart-app.onrender.com/api";
 
 function Wishlist({ addToCart }) {
   const [wishlist, setWishlist] = useState({ items: [] });
