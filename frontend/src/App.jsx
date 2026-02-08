@@ -9,7 +9,7 @@ import OrderHistory from "./components/OrderHistory";
 import AddItem from "./components/AddItem";
 import Wishlist from "./components/Wishlist";
 
-const API_BASE = "http://localhost:3000/api";
+const API_BASE = "https://ecommerce-shopping-cart-app.onrender.com/api";
 
 function App() {
   const [cart, setCart] = useState(null);

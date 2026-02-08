@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-const API_BASE = "http://localhost:3000/api";
+const API_BASE = "https://ecommerce-shopping-cart-app.onrender.com/api";
 
 function AddItem({ onItemAdded }) {
   const [name, setName] = useState("");

@@ -4,8 +4,7 @@ import { ShoppingCart, Heart, Trash2 } from "lucide-react";
 import shoesImg from "../assets/shoe.jpeg";
 import watchImg from "../assets/watch.jpeg";
 import bagImg from "../assets/schoolBag.jpeg";
-
-const API_BASE = "http://localhost:3000/api";
+const API_BASE = "https://ecommerce-shopping-cart-app.onrender.com/api";
 
 function ItemList({ addToCart, addToWishlist, user }) {
   const [items, setItems] = useState([]);
@@ -90,7 +89,7 @@ function ItemList({ addToCart, addToWishlist, user }) {
                 ? item.image
                 : item.image.startsWith("/")
                 ? item.image
-                : `http://localhost:3000/images/${item.image}`
+                : `https://ecommerce-shopping-cart-app.onrender.com/images/${item.image}`
               : item.image;
 
           return (
